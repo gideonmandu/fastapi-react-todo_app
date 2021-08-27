@@ -1,5 +1,5 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 import { ThemeProvider } from "@chakra-ui/core";
 
 import Header from "./components/Header";
@@ -11,9 +11,9 @@ function App() {
       <Header />
       <Todos />
     </ThemeProvider>
-  )
+  );
 }
 
-const rootElement = document.getElementById("root")
+const rootElement = document.getElementById("root");
 
-render(<App />, rootElement)
+render(<App />, rootElement);
